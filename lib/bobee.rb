@@ -1,5 +1,6 @@
 require "bobee/version"
 
 module Bobee
-  # Your code goes here...
+  class Engine < ::Rails::Engine
+  end
 end
